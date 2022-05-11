@@ -35,6 +35,7 @@ header {
     width: 700px;
     font-size: 1.8rem;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -51,6 +52,33 @@ img {
     object-fit: cover;
     border-radius: 50%;
     border: 1px var(--dark1) solid;
+}
+
+/*------------------Body------------------*/
+
+main {
+    font-size: 1.3rem;
+    border: 2px red solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+.title {
+    color: var(--light);
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+#skills {
+    width: 200px;
 }
 
 /*------------------Aside------------------*/
