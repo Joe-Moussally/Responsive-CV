@@ -23,6 +23,7 @@ article {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 /*------------------Header------------------*/
@@ -32,7 +33,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 700px;
+    flex-wrap: wrap;
     font-size: 1.8rem;
     padding: 30px;
     margin-bottom: 20px;
@@ -61,6 +62,8 @@ main {
     border: 2px red solid;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 700px;
 }
 
 section {
@@ -68,6 +71,8 @@ section {
     background-color: white;
     padding: 10px;
     padding-left: 30px;
+    margin-top: 20px;
+    height: fit-content;
     
 }
 
@@ -75,6 +80,7 @@ section {
     color: var(--light);
     text-decoration: underline;
     font-size: 1.8rem;
+    margin-bottom: 10px;
 }
 
 #skills {
