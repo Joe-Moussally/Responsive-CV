@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 /*Initializing color vairables*/
@@ -60,6 +61,7 @@ img {
 main {
     font-size: 1.3rem;
     border: 2px red solid;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -143,8 +145,52 @@ aside {
     height: fit-content;
 }
 
+i {
+    transform: translateY(4px); /*adjusting icons vertically*/
+}
+
+aside > section:hover {
+    transform: none;
+    box-shadow: none;
+}
+
 aside > section {
     background: none;
+}
+
+aside > section > div {
+    padding: 12px 0;
+}
+
+aside > section > div > span {
+    margin-left: 15px;
+}
+
+aside > section > h1 {
+    color: white;
+}
+
+#location  { /*to align location icons with the others*/
+    margin-left: 2px;
+}
+
+aside ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+aside li {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+aside ul i {
+    font-size: 1.7rem;
+    transform: translateY(7px);
+}
+
+aside ul span {
+    margin-left: 10px;
 }
 
 /*------------------Media Queries------------------*/
