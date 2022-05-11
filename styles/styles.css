@@ -104,6 +104,19 @@ section {
     margin-top: 40px;
 }
 
+#education {
+    width: 450px;
+}
+
+table > :nth-child(1) > :nth-child(1) {
+    font-weight: 600;
+    height: 60px;
+}
+
+td {
+    width: 1000000px;
+}
+
 /*------------------Aside------------------*/
 
 aside {
