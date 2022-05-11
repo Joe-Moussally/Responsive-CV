@@ -11,11 +11,34 @@
 :root {
     --light: #55ACEE;
     --dark1: #292F33;
-    --dark2: #66757F;
+    --dark2: #ccd6dd66;
     --dark3: #E1E8ED;
 }
 
+html {
+    background-color: var(--dark2);
+}
+
 /*------------------Header------------------*/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: var(--dark1);
+}
+
+h2 {
+    color: var(--light);
+}
+
 img {
-    width: 200px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
