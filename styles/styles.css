@@ -129,12 +129,22 @@ td {
     width: 1000000px;
 }
 
+#languages {
+    width: 200px;
+}
+
 /*------------------Aside------------------*/
 
 aside {
     background-color: var(--light);
     width: 300px;
     color: white;
+    font-size: 1.3rem;
+    height: fit-content;
+}
+
+aside > section {
+    background: none;
 }
 
 /*------------------Media Queries------------------*/
