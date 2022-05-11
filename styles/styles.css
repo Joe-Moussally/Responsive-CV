@@ -78,6 +78,18 @@ section {
     
 }
 
+section:hover {
+    transform: scale(1.2);
+    transition: ease 0.4s;
+    box-shadow: 0px 0px 10px gray;
+    z-index: 1;
+}
+
+section:not(:hover) {
+    transform: scale(1);
+    transition: ease 0.4s;
+}
+
 .title {
     color: var(--light);
     text-decoration: underline;
@@ -127,6 +139,7 @@ aside {
 
 /*------------------Media Queries------------------*/
 
+/*centering banners on tablet and mobile*/
 @media only screen and (max-width: 700px) {
     main {
         justify-content: center;
@@ -136,3 +149,12 @@ aside {
         max-width: 80%;
     }
   }
+
+
+/*removing on hover animation*/
+@media only screen and (max-width: 854px) {
+    section:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
