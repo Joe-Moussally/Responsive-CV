@@ -60,7 +60,7 @@ img {
 
 main {
     font-size: 1.3rem;
-    border: 2px red solid;
+    border: none;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
