@@ -225,5 +225,15 @@ aside ul > li:hover {
     aside {
         width: 100%;
         display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+    aside > section {
+        width: fit-content;
+    }
+
+    aside li {
+        overflow-y: hidden;
     }
 }
