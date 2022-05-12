@@ -140,6 +140,7 @@ td {
 aside {
     background-color: var(--light);
     width: 300px;
+    margin-right: 100px;
     color: white;
     font-size: 1.3rem;
     height: fit-content;
